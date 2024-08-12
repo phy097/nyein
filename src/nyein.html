@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nyein Chan Aung</title>
+
+    <link rel="stylesheet" href="./output.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="bg-gray-900">
+    <!-- Name -->
+    <div class="container mx-auto px-14 mt-10">
+      <h1 class="text-gray-500 text-2xl font-bold tracking-wider">
+        Nyein Chan Aung
+      </h1>
+      <h3 class="text-gray-400 text-2xl mt-2 tracking-widest">Photography</h3>
+    </div>
+
+    <!-- Navbar -->
+    <div class="container mx-auto px-14 my-10">
+      <nav class="bg-white">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-between">
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <!-- Mobile menu button-->
+              <button
+                type="button"
+                class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white"
+                aria-controls="mobile-menu"
+                aria-expanded="false"
+              >
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+                <!--
+              Icon when menu is closed.
+  
+              Menu open: "hidden", Menu closed: "block"
+            -->
+                <svg
+                  class="block h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                  />
+                </svg>
+                <!--
+              Icon when menu is open.
+  
+              Menu open: "block", Menu closed: "hidden"
+            -->
+                <svg
+                  class="hidden h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M6 18L18 6M6 6l12 12"
+                  />
+                </svg>
+              </button>
+            </div>
+            <div
+              class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start"
+            >
+              <div class="hidden sm:ml-6 sm:block">
+                <div class="flex space-x-4">
+                  <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+
+                  <a
+                    href="index.html"
+                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-700 hover:text-white"
+                    >Home</a
+                  >
+                  <a
+                    href="#"
+                    class="rounded-md bg-gray-900 px-3 py-2 text-sm font-medium text-white"
+                    aria-current="page"
+                    >About me</a
+                  >
+                  <a
+                    href="photo.html"
+                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-700 hover:text-white"
+                    >Photography</a
+                  >
+                  <a
+                    href="#"
+                    class="rounded-md px-3 py-2 text-sm font-medium text-gray-900 hover:bg-gray-700 hover:text-white"
+                    >Contact</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile menu, show/hide based on menu state. -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pb-3 pt-2">
+            <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+            <a
+              href="#"
+              class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
+              aria-current="page"
+              >Dashboard</a
+            >
+            <a
+              href="#"
+              class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >Team</a
+            >
+            <a
+              href="#"
+              class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >Projects</a
+            >
+            <a
+              href="#"
+              class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+              >Calendar</a
+            >
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- About Me -->
+    <div class="container mx-auto px-14">
+      <div class="container mx-auto my-10">
+        <h3
+          class="text-gray-300 tracking-widest font-medium text-4xl text-center"
+        >
+          About me
+        </h3>
+        <div class="flex flex-col md:flex-row">
+          <div class="md:w-1/2 p-5 mt-5">
+            <img src="../images/nyein.jpg" class="rounded" alt="Nyein" />
+          </div>
+          <div class="md:w-1/2 p-5 mt-5">
+            <p class="text-slate-100 pt-10 leading-6 font-medium text-lg">
+              I'm not street Photographer, I am one of the people struggling in
+              these pictures,These pictures are not street photography.
+              Actually, The shits we face every day, Behind the photography,
+              there are wounds, there are hardships, there are struggles, there
+              are harshness, insignificance, boredom, solitude, emptiness,
+              feelings, love, smiles, especially life. I hope you think about
+              the life behind each photography.
+            </p>
+            <p class="text-slate-100 leading-7 mt-4 font-medium text-lg">
+              I'm not street Photographer, I am one of the people struggling in
+              these pictures,These pictures are not street photography.
+              Actually, The shits we face every day, Behind the photography,
+              there are wounds, there are hardships, there are struggles, there
+              are harshness, insignificance, boredom, solitude, emptiness,
+              feelings, love, smiles, especially life. I hope you think about
+              the life behind each photography.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Social -->
+    <div class="container mx-auto px-14 my-14 pb-24 pt-14">
+      <div class="container flex justify-end">
+        <a href="" class="text-gray-600 text-4xl"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a href="" class="text-gray-600 text-4xl ms-5"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="" class="text-gray-600 text-4xl ms-5"
+          ><i class="fa-solid fa-envelope"></i
+        ></a>
+        <a href="" class="text-gray-600 text-4xl ms-5">
+            <i class="fa-brands fa-chrome"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
